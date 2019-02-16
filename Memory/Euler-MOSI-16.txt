@@ -1,0 +1,611 @@
+desc: (none)
+cmd: ./bin/CacheChecker MOSI 16
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2323686
+mem_heap_B=77010
+mem_heap_extra_B=142
+mem_stacks_B=0
+heap_tree=peak
+n3: 77010 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFF000225: ???
+       n1: 72704 0xFFF000238: ???
+        n0: 72704 0xFFF00023D: ???
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x403843: CacheSim::nextAction(int) (CacheSim.cpp:25)
+        n1: 4096 0x407911: CacheTester::test() (CacheTester.cpp:37)
+         n0: 4096 0x4025C8: main (main.cpp:22)
+ n0: 210 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=31434174814
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=44370938208
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=69162599552
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=89663544866
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=116362541641
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=140503118739
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=155309791228
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=174558477751
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=202691147475
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=219955442015
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=239979586612
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76977 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFF000225: ???
+       n1: 72704 0xFFF000238: ???
+        n0: 72704 0xFFF00023D: ???
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x403843: CacheSim::nextAction(int) (CacheSim.cpp:25)
+        n1: 4096 0x407911: CacheTester::test() (CacheTester.cpp:37)
+         n0: 4096 0x4025C8: main (main.cpp:22)
+ n0: 177 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=268585512781
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76977 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFF000225: ???
+       n1: 72704 0xFFF000238: ???
+        n0: 72704 0xFFF00023D: ???
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x403843: CacheSim::nextAction(int) (CacheSim.cpp:25)
+        n1: 4096 0x407911: CacheTester::test() (CacheTester.cpp:37)
+         n0: 4096 0x4025C8: main (main.cpp:22)
+ n0: 177 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=288609665538
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=302912625326
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=322936767925
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=337239730932
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=360124560541
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=379195337770
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=409708578691
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=428779348274
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=459292585977
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=482177509177
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=501248278998
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=520319045718
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=550783784297
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=568688595370
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=594731933964
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=620775275251
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=648750698190
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=667400991387
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=692268038186
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=710918319545
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=738893748209
+mem_heap_B=77025
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=760652402673
+mem_heap_B=77058
+mem_heap_extra_B=142
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=776194306386
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=799720958088
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76960 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFF000225: ???
+       n1: 72704 0xFFF000238: ???
+        n0: 72704 0xFFF00023D: ???
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x403843: CacheSim::nextAction(int) (CacheSim.cpp:25)
+        n1: 4096 0x407911: CacheTester::test() (CacheTester.cpp:37)
+         n0: 4096 0x4025C8: main (main.cpp:22)
+ n0: 160 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=833540534331
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=865889696121
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76977 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFF000225: ???
+       n1: 72704 0xFFF000238: ???
+        n0: 72704 0xFFF00023D: ???
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x403843: CacheSim::nextAction(int) (CacheSim.cpp:25)
+        n1: 4096 0x407911: CacheTester::test() (CacheTester.cpp:37)
+         n0: 4096 0x4025C8: main (main.cpp:22)
+ n0: 177 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=886475521298
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=909266985590
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=943203648693
+mem_heap_B=77058
+mem_heap_extra_B=142
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=966023888943
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=985991585172
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76977 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFF000225: ???
+       n1: 72704 0xFFF000238: ???
+        n0: 72704 0xFFF00023D: ???
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x403843: CacheSim::nextAction(int) (CacheSim.cpp:25)
+        n1: 4096 0x407911: CacheTester::test() (CacheTester.cpp:37)
+         n0: 4096 0x4025C8: main (main.cpp:22)
+ n0: 177 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=1005959289338
+mem_heap_B=76993
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1020221937392
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1043042178148
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76977 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFF000225: ???
+       n1: 72704 0xFFF000238: ???
+        n0: 72704 0xFFF00023D: ???
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x403843: CacheSim::nextAction(int) (CacheSim.cpp:25)
+        n1: 4096 0x407911: CacheTester::test() (CacheTester.cpp:37)
+         n0: 4096 0x4025C8: main (main.cpp:22)
+ n0: 177 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=1076235258574
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1078828457347
+mem_heap_B=76960
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1081421658950
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1084014860038
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=detailed
+n3: 76977 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x1: ???
+      n1: 72704 0xFFF000225: ???
+       n1: 72704 0xFFF000238: ???
+        n0: 72704 0xFFF00023D: ???
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x403843: CacheSim::nextAction(int) (CacheSim.cpp:25)
+        n1: 4096 0x407911: CacheTester::test() (CacheTester.cpp:37)
+         n0: 4096 0x4025C8: main (main.cpp:22)
+ n0: 177 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=52
+#-----------
+time=1086608061076
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1089201263947
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1091794465063
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1094387669687
+mem_heap_B=76977
+mem_heap_extra_B=119
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1096980868517
+mem_heap_B=77058
+mem_heap_extra_B=142
+mem_stacks_B=0
+heap_tree=empty

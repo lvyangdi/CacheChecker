@@ -1,0 +1,1161 @@
+desc: (none)
+cmd: ./bin/CacheChecker MOSI 8 BFS
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2126456
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=3863056
+mem_heap_B=88088
+mem_heap_extra_B=944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=5093179
+mem_heap_B=94904
+mem_heap_extra_B=1328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=6726894
+mem_heap_B=99272
+mem_heap_extra_B=1776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=8985827
+mem_heap_B=111752
+mem_heap_extra_B=2336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=11060086
+mem_heap_B=115208
+mem_heap_extra_B=2912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=12453044
+mem_heap_B=116216
+mem_heap_extra_B=3080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=14728377
+mem_heap_B=121880
+mem_heap_extra_B=3472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=16481217
+mem_heap_B=123560
+mem_heap_extra_B=3752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=18216291
+mem_heap_B=124856
+mem_heap_extra_B=3968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=20430432
+mem_heap_B=159160
+mem_heap_extra_B=4232
+mem_stacks_B=0
+heap_tree=detailed
+n6: 159160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 49152 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 49152 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 49152 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 49152 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 49152 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 49152 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 49152 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 49152 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 24576 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 24576 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 24576 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 24576 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 24576 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 24576 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 24576 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 24528 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 24528 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 24528 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 6584 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 6584 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 6584 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 6584 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 6584 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 6584 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 6584 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 6584 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 6584 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 6584 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 6584 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 6584 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 6584 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+ n1: 2048 0x4070B2: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 2048 0x406CC8: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:491)
+   n1: 2048 0x406490: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 2048 0x405B06: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (vector.tcc:412)
+     n1: 2048 0x4053AB: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:101)
+      n2: 2048 0x404C94: std::vector<int, std::allocator<int> >::push_back(int&&) (stl_vector.h:932)
+       n1: 2048 0x403F60: CacheSim::BFS() (CacheSim.cpp:107)
+        n1: 2048 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+         n0: 2048 0x40252C: main (main.cpp:16)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=21427975
+mem_heap_B=146072
+mem_heap_extra_B=4432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=23576327
+mem_heap_B=147848
+mem_heap_extra_B=4728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=24951933
+mem_heap_B=149192
+mem_heap_extra_B=4952
+mem_stacks_B=0
+heap_tree=detailed
+n6: 149192 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 32768 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 32768 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 32768 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 32768 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 32768 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 32768 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 32768 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 32768 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 28944 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 28944 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 28944 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 28944 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 28944 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 28944 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 28944 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 28896 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 28896 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 28896 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 6584 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 6584 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 6584 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 6584 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 6584 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 6584 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 6584 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 6584 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 6584 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 6584 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 6584 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 6584 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 6584 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+ n1: 4096 0x4070B2: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 4096 0x406CC8: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:491)
+   n1: 4096 0x406490: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 4096 0x405B06: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (vector.tcc:412)
+     n1: 4096 0x4053AB: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:101)
+      n2: 4096 0x404C94: std::vector<int, std::allocator<int> >::push_back(int&&) (stl_vector.h:932)
+       n1: 4096 0x403F60: CacheSim::BFS() (CacheSim.cpp:107)
+        n1: 4096 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+         n0: 4096 0x40252C: main (main.cpp:16)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=25935604
+mem_heap_B=149720
+mem_heap_extra_B=5040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=27695907
+mem_heap_B=151400
+mem_heap_extra_B=5320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=29181784
+mem_heap_B=153032
+mem_heap_extra_B=5592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=30172191
+mem_heap_B=153848
+mem_heap_extra_B=5728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=31471488
+mem_heap_B=154520
+mem_heap_extra_B=5840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=33023283
+mem_heap_B=155528
+mem_heap_extra_B=6008
+mem_stacks_B=0
+heap_tree=detailed
+n6: 155528 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 35280 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 35280 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 35280 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 35280 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 35280 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 35280 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 35280 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 35232 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 35232 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 35232 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 32768 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 32768 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 32768 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 32768 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 32768 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 32768 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 32768 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 32768 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 6584 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 6584 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 6584 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 6584 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 6584 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 6584 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 6584 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 6584 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 6584 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 6584 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 6584 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 6584 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 6584 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+ n1: 4096 0x4070B2: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 4096 0x406CC8: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:491)
+   n1: 4096 0x406490: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 4096 0x405B06: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (vector.tcc:412)
+     n1: 4096 0x4053AB: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:101)
+      n2: 4096 0x404C94: std::vector<int, std::allocator<int> >::push_back(int&&) (stl_vector.h:932)
+       n1: 4096 0x403F60: CacheSim::BFS() (CacheSim.cpp:107)
+        n1: 4096 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+         n0: 4096 0x40252C: main (main.cpp:16)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=34328368
+mem_heap_B=156200
+mem_heap_extra_B=6120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=35948267
+mem_heap_B=156920
+mem_heap_extra_B=6240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=37502077
+mem_heap_B=157928
+mem_heap_extra_B=6408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=39702612
+mem_heap_B=158936
+mem_heap_extra_B=6576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=41030429
+mem_heap_B=173680
+mem_heap_extra_B=6728
+mem_stacks_B=0
+heap_tree=detailed
+n6: 173680 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 39504 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 39504 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 39504 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 39504 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 39504 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 39504 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 39504 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 39456 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 39456 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 39456 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 32768 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 32768 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 32768 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 32768 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 32768 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 32768 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 32768 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 32768 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 20512 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 20512 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 20512 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 20512 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 20512 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 20512 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 20512 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 20512 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 20512 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 20512 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 20512 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 20512 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 20512 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+ n1: 4096 0x4070B2: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 4096 0x406CC8: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:491)
+   n1: 4096 0x406490: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 4096 0x405B06: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (vector.tcc:412)
+     n1: 4096 0x4053AB: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:101)
+      n2: 4096 0x404C94: std::vector<int, std::allocator<int> >::push_back(int&&) (stl_vector.h:932)
+       n1: 4096 0x403F60: CacheSim::BFS() (CacheSim.cpp:107)
+        n1: 4096 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+         n0: 4096 0x40252C: main (main.cpp:16)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=42777522
+mem_heap_B=168008
+mem_heap_extra_B=6864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=44374859
+mem_heap_B=168968
+mem_heap_extra_B=7024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=45636196
+mem_heap_B=169592
+mem_heap_extra_B=7128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=47235460
+mem_heap_B=170600
+mem_heap_extra_B=7296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=48504218
+mem_heap_B=171272
+mem_heap_extra_B=7408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=50034401
+mem_heap_B=172328
+mem_heap_extra_B=7584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=51063795
+mem_heap_B=172904
+mem_heap_extra_B=7680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=52793999
+mem_heap_B=173960
+mem_heap_extra_B=7856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=53841349
+mem_heap_B=174584
+mem_heap_extra_B=7960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=56115240
+mem_heap_B=175976
+mem_heap_extra_B=8192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=57995862
+mem_heap_B=242280
+mem_heap_extra_B=8328
+mem_stacks_B=0
+heap_tree=peak
+n6: 242280 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 98304 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 98304 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 98304 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 98304 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 98304 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 98304 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 98304 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 98304 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 49152 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 49152 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 49152 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 49152 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 49152 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 49152 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 49152 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 49104 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 49104 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 49104 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 13928 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 13928 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 13928 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 13928 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 13928 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 13928 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 13928 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 13928 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 13928 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 13928 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 13928 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 13928 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 13928 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+ n1: 4096 0x4070B2: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 4096 0x406CC8: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:491)
+   n1: 4096 0x406490: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 4096 0x405B06: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (vector.tcc:412)
+     n1: 4096 0x4053AB: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:101)
+      n2: 4096 0x404C94: std::vector<int, std::allocator<int> >::push_back(int&&) (stl_vector.h:932)
+       n1: 4096 0x403F60: CacheSim::BFS() (CacheSim.cpp:107)
+        n1: 4096 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+         n0: 4096 0x40252C: main (main.cpp:16)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=59711371
+mem_heap_B=214280
+mem_heap_extra_B=8432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=61255756
+mem_heap_B=214856
+mem_heap_extra_B=8528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=63502240
+mem_heap_B=215432
+mem_heap_extra_B=8624
+mem_stacks_B=0
+heap_tree=detailed
+n6: 215432 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 65536 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 65536 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 65536 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 65536 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 65536 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 65536 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 65536 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 65536 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 50976 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 50976 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 50976 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 50976 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 50976 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 50976 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 50976 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 50928 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 50928 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 50928 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 13928 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 13928 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 13928 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 13928 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 13928 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 13928 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 13928 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 13928 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 13928 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 13928 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 13928 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 13928 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 13928 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 8192 0x4070B2: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 8192 0x406CC8: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:491)
+   n1: 8192 0x406490: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 8192 0x405B06: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (vector.tcc:412)
+     n1: 8192 0x4053AB: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:101)
+      n2: 8192 0x404C94: std::vector<int, std::allocator<int> >::push_back(int&&) (stl_vector.h:932)
+       n1: 8192 0x403F60: CacheSim::BFS() (CacheSim.cpp:107)
+        n1: 8192 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+         n0: 8192 0x40252C: main (main.cpp:16)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+#-----------
+snapshot=40
+#-----------
+time=64701523
+mem_heap_B=215720
+mem_heap_extra_B=8672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=66345673
+mem_heap_B=216440
+mem_heap_extra_B=8792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=67568983
+mem_heap_B=216728
+mem_heap_extra_B=8840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=69599941
+mem_heap_B=217496
+mem_heap_extra_B=8968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=70883808
+mem_heap_B=217784
+mem_heap_extra_B=9016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=72515641
+mem_heap_B=218504
+mem_heap_extra_B=9136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=73715455
+mem_heap_B=218792
+mem_heap_extra_B=9184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=75348174
+mem_heap_B=219512
+mem_heap_extra_B=9304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=76536235
+mem_heap_B=219800
+mem_heap_extra_B=9352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=77629649
+mem_heap_B=220424
+mem_heap_extra_B=9456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=78676764
+mem_heap_B=220712
+mem_heap_extra_B=9504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=79710890
+mem_heap_B=221096
+mem_heap_extra_B=9568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=80694890
+mem_heap_B=221480
+mem_heap_extra_B=9632
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=81816744
+mem_heap_B=221768
+mem_heap_extra_B=9680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=83010405
+mem_heap_B=222296
+mem_heap_extra_B=9768
+mem_stacks_B=0
+heap_tree=detailed
+n6: 222296 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 65536 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 65536 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 65536 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 65536 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 65536 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 65536 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 65536 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 65536 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 57840 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 57840 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 57840 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 57840 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 57840 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 57840 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 57840 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 57792 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 57792 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 57792 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 13928 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 13928 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 13928 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 13928 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 13928 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 13928 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 13928 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 13928 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 13928 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 13928 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 13928 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 13928 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 13928 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 8192 0x4070B2: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 8192 0x406CC8: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:491)
+   n1: 8192 0x406490: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 8192 0x405B06: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (vector.tcc:412)
+     n1: 8192 0x4053AB: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:101)
+      n2: 8192 0x404C94: std::vector<int, std::allocator<int> >::push_back(int&&) (stl_vector.h:932)
+       n1: 8192 0x403F60: CacheSim::BFS() (CacheSim.cpp:107)
+        n1: 8192 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+         n0: 8192 0x40252C: main (main.cpp:16)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+#-----------
+snapshot=55
+#-----------
+time=84061937
+mem_heap_B=222680
+mem_heap_extra_B=9832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=85120687
+mem_heap_B=222920
+mem_heap_extra_B=9872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=86273718
+mem_heap_B=223112
+mem_heap_extra_B=9904
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=87268348
+mem_heap_B=223352
+mem_heap_extra_B=9944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=88494779
+mem_heap_B=223496
+mem_heap_extra_B=9968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=89485098
+mem_heap_B=223736
+mem_heap_extra_B=10008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=90786287
+mem_heap_B=223880
+mem_heap_extra_B=10032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=92033800
+mem_heap_B=224168
+mem_heap_extra_B=10080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=93026011
+mem_heap_B=224408
+mem_heap_extra_B=10120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=94239057
+mem_heap_B=224552
+mem_heap_extra_B=10144
+mem_stacks_B=0
+heap_tree=detailed
+n6: 224552 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 65536 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 65536 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 65536 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 65536 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 65536 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 65536 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 65536 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 65536 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 60096 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 60096 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 60096 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 60096 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 60096 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 60096 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 60096 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 60048 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 60048 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 60048 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 13928 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 13928 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 13928 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 13928 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 13928 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 13928 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 13928 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 13928 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 13928 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 13928 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 13928 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 13928 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 13928 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 8192 0x4070B2: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 8192 0x406CC8: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (alloc_traits.h:491)
+   n1: 8192 0x406490: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 8192 0x405B06: void std::vector<int, std::allocator<int> >::_M_emplace_back_aux<int>(int&&) (vector.tcc:412)
+     n1: 8192 0x4053AB: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (vector.tcc:101)
+      n2: 8192 0x404C94: std::vector<int, std::allocator<int> >::push_back(int&&) (stl_vector.h:932)
+       n1: 8192 0x403F60: CacheSim::BFS() (CacheSim.cpp:107)
+        n1: 8192 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+         n0: 8192 0x40252C: main (main.cpp:16)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+#-----------
+snapshot=65
+#-----------
+time=95477823
+mem_heap_B=224840
+mem_heap_extra_B=10192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=96465228
+mem_heap_B=225080
+mem_heap_extra_B=10232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=97667576
+mem_heap_B=225224
+mem_heap_extra_B=10256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=98914072
+mem_heap_B=225512
+mem_heap_extra_B=10304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=100214561
+mem_heap_B=225800
+mem_heap_extra_B=10352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=101699561
+mem_heap_B=225944
+mem_heap_extra_B=10376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=102943597
+mem_heap_B=226040
+mem_heap_extra_B=10392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=104107663
+mem_heap_B=226136
+mem_heap_extra_B=10408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=105268971
+mem_heap_B=226232
+mem_heap_extra_B=10424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=107112789
+mem_heap_B=218088
+mem_heap_extra_B=10424
+mem_stacks_B=0
+heap_tree=detailed
+n6: 218088 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBAEFE: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+     n1: 72704 0x2: ???
+      n1: 72704 0xFFF000221: ???
+       n1: 72704 0xFFF000234: ???
+        n1: 72704 0xFFF000239: ???
+         n0: 72704 0xFFF00023B: ???
+ n1: 65536 0x406C00: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 65536 0x406257: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (alloc_traits.h:491)
+   n1: 65536 0x40597C: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (stl_vector.h:170)
+    n1: 65536 0x4050B4: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_emplace_back_aux<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (vector.tcc:412)
+     n2: 65536 0x404BF5: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (stl_vector.h:923)
+      n1: 65536 0x403F07: CacheSim::BFS() (CacheSim.cpp:105)
+       n1: 65536 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+        n0: 65536 0x40252C: main (main.cpp:16)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 61824 0x4071DB: __gnu_cxx::new_allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 61824 0x406E0F: std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::allocate(std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> >&, unsigned long) (alloc_traits.h:491)
+   n1: 61824 0x406877: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:1949)
+    n1: 61824 0x405FC5: std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>* std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::operator()<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const (hashtable_policy.h:180)
+     n1: 61824 0x4056E4: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1703)
+      n1: 61824 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+       n2: 61824 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+        n1: 61776 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+         n1: 61776 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+          n0: 61776 0x40252C: main (main.cpp:16)
+        n0: 48 in 1 place, below massif's threshold (1.00%)
+ n1: 13928 0x407570: __gnu_cxx::new_allocator<std::__detail::_Hash_node_base*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n1: 13928 0x4074A9: std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*> >::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long) (alloc_traits.h:491)
+   n1: 13928 0x407381: std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > >::_M_allocate_buckets(unsigned long) (hashtable_policy.h:1996)
+    n1: 13928 0x407227: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_allocate_buckets(unsigned long) (hashtable.h:347)
+     n1: 13928 0x406E35: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash_aux(unsigned long, std::integral_constant<bool, true>) (hashtable.h:1974)
+      n1: 13928 0x4069B8: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_rehash(unsigned long, unsigned long const&) (hashtable.h:1953)
+       n1: 13928 0x40605C: std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true>*) (hashtable.h:1600)
+        n1: 13928 0x405704: std::pair<std::__detail::_Node_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true, true>, bool> std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::_M_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, true> > > const&, std::integral_constant<bool, true>) (hashtable.h:1704)
+         n1: 13928 0x404E61: std::__detail::_Insert_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Identity, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, true, true> >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (hashtable_policy.h:715)
+          n2: 13928 0x404A37: std::unordered_set<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::insert(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (unordered_set.h:413)
+           n1: 13928 0x403F21: CacheSim::BFS() (CacheSim.cpp:106)
+            n1: 13928 0x407840: CacheTester::BFS() (CacheTester.cpp:16)
+             n0: 13928 0x40252C: main (main.cpp:16)
+           n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4096 0x54361D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 4096 0x5444592: _IO_doallocbuf (genops.c:398)
+   n1: 4096 0x54438F6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:820)
+    n1: 4096 0x544228B: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1331)
+     n1: 4096 0x54377B9: fwrite (iofwrite.c:39)
+      n1: 4096 0x4F3FEC4: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+       n1: 4096 0x4F40235: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+        n1: 4096 0x407823: CacheTester::BFS() (CacheTester.cpp:15)
+         n0: 4096 0x40252C: main (main.cpp:16)
+ n0: 0 in 1 place, below massif's threshold (1.00%)

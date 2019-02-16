@@ -1,0 +1,23 @@
+To compile
+
+type make
+
+==================================
+
+1) To run our approach
+
+./bin/CacheChecker <protocol> <num>
+
+e.g. ./bin/CacheChecker MSI 8
+
+2) To run BFS
+
+./bin/CacheChecker <protocol> <num> BFS
+
+e.g. ./bin/CacheChecker MSI 8 BFS
+
+3) To run Random
+
+./bin/CacheChecker <protocol> <num> Random
+
+e.g. ./bin/CacheChecker MSI 8 Random
